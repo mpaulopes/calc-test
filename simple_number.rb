@@ -8,6 +8,10 @@ class SimpleNumber
     @x + @y
   end
 
+  def subtraction
+    @x - @y
+  end
+
   def multiply
     @x * @y
   end
