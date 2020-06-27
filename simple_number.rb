@@ -17,7 +17,11 @@ class SimpleNumber
   end
 
   def divide
-    @x/@y
+    @x / @y
+  end
+
+  def power
+    @x ** @y
   end
 end
 

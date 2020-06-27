@@ -8,6 +8,7 @@ class TestSimpleNumber < Test::Unit::TestCase
     assert_equal(6, SimpleNumber.new(2, 3).multiply)
     assert_equal(4, SimpleNumber.new(8, 2).divide)
     assert_equal(3, SimpleNumber.new(4, 1).subtraction)
+    assert_equal(16, SimpleNumber.new(4, 2).power)
   end
  
 end
