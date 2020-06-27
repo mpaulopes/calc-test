@@ -5,7 +5,11 @@ class SimpleNumber
   end
 
   def add
-    @x + @y
+    @x - @y
+  end
+
+  def subtraction
+    @x - @y
   end
 
   def multiply
