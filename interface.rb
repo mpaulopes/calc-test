@@ -6,7 +6,7 @@ x = gets.chomp
 puts "please enter second number:"
 y = gets.chomp
 
-puts "please enter first operation (add, multiply):"
+puts "please enter operation (add, multiply, divide, subtraction, power):"
 operation = gets.chomp
 
 
