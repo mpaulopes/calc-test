@@ -21,7 +21,7 @@ class SimpleNumber
   end
 
   def power
-    @x * @y
+    @x ** @y
   end
 end
 
